@@ -11,6 +11,7 @@
       crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style media="screen">
+    /* move the styles to an external sheet */
       html {
         position: relative;
         min-height: 100%;
@@ -54,13 +55,14 @@
   <div class="container">
       <h1>JS Book <small>Various JS applications</small></h1>
 
+      <!-- read over the code, understand the structure and classes. Notice that there are barely any custom CSS defined. You can take full advantage of Bootstrap's predefined styles! -->
+
       <hr>
 
       <div class="alert alert-info alert-dismissable">
         <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
         Welcome to the JS Book scaffold. You can create various JS programs and showcase each app on different pages. Each page should feature a program using JS and/or jQuery that you can interact with. Build this site up so you can use it for your portfolio. Feel free to explore and experiment!
       </div>
-
 
       <div class="row">
         <div class="col-sm-6">
@@ -95,6 +97,7 @@
                 <li>Create an 8 ball in CSS / find an image</li>
                 <li>Animate a fade in effect on the image  </li>
               </ul>
+              <!-- Feel remove and add projects to keep yourself organized  -->
             </div>
           </div>
         </div>
@@ -116,6 +119,7 @@
                 <li>Look into what a favicon is, and add to your site</li>
                 <li>Add some glyphicons to your site</li>
                 <li>Deploy to Github Pages</li>
+                <!-- Feel free to add and remove TODO's -->
             </div>
           </div>
         </div>
@@ -129,8 +133,15 @@
         <a href="https://www.brainstation.io">Brainstation</a> |
         <a href="#">FAQ</a> |
         <a href="#">Legal</a> |
+        <!-- Remove FAQ and Legal and replace them with your own links like your Github, LinkedIn and your own personal site -->
       </div>
     </footer>
 
+
+  <script type="text/javascript">
+    $(function(){
+      console.log('Welcome to JS Book!');
+    });
+  </script>
   </body>
 </html>
